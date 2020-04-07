@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject cube;
-
+    public GameObject sphereprefab;
     void Start()
     {
         
@@ -17,6 +17,9 @@ public class Spawner : MonoBehaviour
         if (Random.Range(0, 100) < 10)
         {
             Instantiate(cube, transform.position, Quaternion.identity);
-        }      
+        } else if (Random.Range(0, 100) < 10)
+        {
+            Instantiate(sphereprefab, transform.position, Quaternion.identity);
+        }   
     }
 }
