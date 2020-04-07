@@ -397,6 +397,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395885603}
   - component: {fileID: 1395885602}
+  - component: {fileID: 1395885604}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -411,12 +412,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395885601}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25417125817c0864f95da0532271dff0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 4887898279340816219, guid: 8aec535bd46f23441ae9f83720cfdcb4, type: 3}
+  sphereprefab: {fileID: 8874843966135676251, guid: 9dda20d2f000a6049be02c2ec40836be,
+    type: 3}
 --- !u!4 &1395885603
 Transform:
   m_ObjectHideFlags: 0
@@ -431,3 +434,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1395885604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395885601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 664ac7c805721674e999a98c2b105283, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

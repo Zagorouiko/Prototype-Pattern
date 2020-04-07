@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeSpawner : MonoBehaviour
-{      
+public class SphereSpawner : MonoBehaviour
+{
     void Update()
     {
         if (Random.Range(0, 100) < 10)
         {
-            ProcCube.Clone(transform.position);
+            Sphere.Clone(transform.position);
         }
     }
 }
