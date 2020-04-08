@@ -8,7 +8,7 @@ public class SphereSpawner : MonoBehaviour
     {
         if (Random.Range(0, 100) < 10)
         {
-            Sphere.Clone(transform.position);
+            ProcSphere.Clone(transform.position);
         }
     }
 }

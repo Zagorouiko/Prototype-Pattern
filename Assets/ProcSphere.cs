@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Sphere : MonoBehaviour
+public class ProcSphere : MonoBehaviour
 {
     static GameObject sphere;
     public static void CreateSphere(Vector3 pos)
